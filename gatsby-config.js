@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: "Gatspy BootCamp 2020",
+    author: "Bilal Mir",
+  },
+  plugins: ["gatsby-plugin-sass"],
 }
